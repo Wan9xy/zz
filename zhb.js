@@ -10,8 +10,8 @@ let id = req.userId
 let i = 1
 let today = new Date().Format("yyyy-MM-dd")
 
-console.log("name:",name)
-console.log("id:",id)
+console.log("name:"+name)
+console.log("id:"+id)
 
 function subDays() {
     let date = new Date(new Date().setDate(new Date().getDate()-i)).Format("yyyy-MM-dd");
@@ -27,7 +27,7 @@ let o = {
         "resultList": [
             {
                 "idCard": id,
-                "createTime": `${subDays()()} 08:35:06`,
+                "createTime": `${subDays()} 08:35:06`,
                 "id": 999999,
                 "checkResult": "阴性",
                 "activyId": 999,
