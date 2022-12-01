@@ -6,6 +6,7 @@ let id = req.userId
 
 let i = 1
 let today = new Date().Format("yyyy-MM-dd")
+
 function subDays() {
     let date = new Date(new Date().setDate(new Date().getDate()-i)).Format("yyyy-MM-dd");
     i++
@@ -86,8 +87,10 @@ let o = {
     "code": 0
 }
 
+console.log(o)
+
 let body = JSON.stringify(o)
 
-console.log(body)
+// console.log(body)
 
 $done({ body });
