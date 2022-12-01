@@ -1,14 +1,15 @@
 
-let req = eval("(" + $request.body +")");
-console.log(req)
-let name = req.name
-let id = req.userId
-
+// let req = eval("(" + $request.body +")");
+// console.log(req)
+// let name = req.name
+// let id = req.userId
+let name = '王馨宇'
+let id = '152127199709191512'
 let i = 1
 let today = new Date().Format("yyyy-MM-dd")
 
-console.log("name:",name)
-console.log("id:",id)
+// console.log("name:",name)
+// console.log("id:",id)
 
 function subDays() {
     let date = new Date(new Date().setDate(new Date().getDate()-i)).Format("yyyy-MM-dd");
