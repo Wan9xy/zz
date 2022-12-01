@@ -7,6 +7,9 @@ let id = req.userId
 let i = 1
 let today = new Date().Format("yyyy-MM-dd")
 
+console.log("name:",name)
+console.log("id:",id)
+
 function subDays() {
     let date = new Date(new Date().setDate(new Date().getDate()-i)).Format("yyyy-MM-dd");
     i++
