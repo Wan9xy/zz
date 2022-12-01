@@ -119,9 +119,9 @@ function subDays() {
     return date
 }
 
-function random10() {
-    return Math.floor(Math.random()*10)
-}
+// function random10() {
+//     return Math.floor(Math.random()*10)
+// }
 
 let i = 1
 
@@ -136,7 +136,7 @@ let o = {
             {
                 "idCard": "4xxxxxxxxxxxxxxx3",
                 "createTime": `${subDays()} 14:56:06`,
-                "id": 43311006,
+                "id": 433110066,
                 "checkResult": "阴性",
                 "activyId": 202205,
                 "checkOrgName": "郑州和合医学检验实验室",
@@ -146,7 +146,7 @@ let o = {
             {
                 "idCard": "4xxxxxxxxxxxxxxx3",
                 "createTime": `${subDays()} 14:56:06`,
-                "id": 43311006,
+                "id": 433110067,
                 "checkResult": "阴性",
                 "activyId": 202205,
                 "checkOrgName": "郑州和合医学检验实验室",
