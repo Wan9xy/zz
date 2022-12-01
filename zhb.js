@@ -87,4 +87,6 @@ let o = {
 
 let body = JSON.stringify(o)
 
+console.log(body)
+
 $done({ body });
