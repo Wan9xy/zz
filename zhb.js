@@ -1,5 +1,6 @@
-console.log($request.body)
+
 let req = eval("(" + $request.body +")");
+console.log(req)
 let name = req.name
 let id = req.userId
 
