@@ -84,3 +84,7 @@ let o = {
     },
     "code": 0
 }
+
+let body = JSON.stringify(o)
+
+$done({ body });
